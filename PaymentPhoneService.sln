@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPhoneService", "PaymentPhoneService\PaymentPhoneService.csproj", "{217BB75F-5D38-4CAF-A63C-042429405544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPhoneService.Tests", "PaymentPhoneService.Tests\PaymentPhoneService.Tests.csproj", "{4BEF808D-39D0-4A54-BFB0-9E756D4431F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{17F93232-54D3-46B4-A234-95EE1C3DF285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217BB75F-5D38-4CAF-A63C-042429405544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217BB75F-5D38-4CAF-A63C-042429405544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217BB75F-5D38-4CAF-A63C-042429405544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217BB75F-5D38-4CAF-A63C-042429405544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEF808D-39D0-4A54-BFB0-9E756D4431F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEF808D-39D0-4A54-BFB0-9E756D4431F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEF808D-39D0-4A54-BFB0-9E756D4431F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEF808D-39D0-4A54-BFB0-9E756D4431F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BEF808D-39D0-4A54-BFB0-9E756D4431F4} = {17F93232-54D3-46B4-A234-95EE1C3DF285}
+	EndGlobalSection
+EndGlobal
